@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>개인 사업자 홈페이지 제작</h1>
+      <div>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="submit.html">의뢰</a></li>
+          <li><a href="create.html">포트폴리오</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="feedback.html">피드백</a></li>
+          <a href="notice.html"></a>
+        </ul>
+      </div>
+    </header>
+    <form action="https://formspree.io/f/xlgobjkg" method="POST">
+        <caption>개인정보</caption>
+        <ul class="info">
+            <li><p>이름 : <input type="text" name="id"placeholder="회사명도 됩니다." autofocus required></p></li>
+            <li><p>이메일 : <input type="email" name="email"></p></li>
+            <li><p>전화번호 : <input type="tel" name="tel" placeholder="010-0000-0000 형식으로 작성해주세요" autofocus required></p></li>
+            <li><p>상세 사항 : <br><textarea name="detail" cols="50" rows="10" placeholder="원하는 디자인이나 원하시는 것이 있으시면 적어 주세요."></textarea></p></li>
+        </ul>
+        <hr>
+        <ul class="submit">
+            <button type="submit">제출하기
+            <button type="reset">다시 제출
+        </ul>
+    </form>
+</body>
+</html>
